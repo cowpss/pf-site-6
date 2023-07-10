@@ -1,0 +1,255 @@
+@charset "UTF-8";
+
+/* common */
+body {
+  margin: 0;
+  vertical-align: bottom;
+  font-family: 'Crimson Text', serif;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1000px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  width: 90vw;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+header {
+  margin: 0 auto;
+}
+
+header img {
+  height: 320px;
+  width: 90vw;
+  margin-top: 4%;
+  object-fit: cover;
+}
+
+.hero {
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  margin: 32px 0 48px;
+}
+
+.hero ol {
+  display: flex;
+  margin-left: 16px;
+}
+
+.hero li {
+  margin-left: 32px;
+  font-size: 0.88rem;
+}
+
+.hero a {
+  text-decoration: none;
+  color: black;
+}
+
+/* mein */
+.mein {
+  margin-bottom: 60px;
+}
+
+.mein-w1000 {
+  align-items: center;
+}
+
+.mein-w1000 h2 {
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+.mein-w1000 h3 {
+  font-weight: normal;
+  margin: 0;
+  padding-bottom: 36px;
+  font-size: 1rem;
+}
+
+.mein-w1000 p {
+  margin: 0;
+  font-size: .85rem;
+}
+
+.container .mein-w1000 {
+  display: flex;
+  align-items: center;
+}
+
+.mein-w1000 div {
+  margin-bottom: 48px;
+}
+
+.mein .pic {
+  /* height: 100%; */
+}
+
+.mein-w1000 {
+  flex: 1;
+}
+
+.mein-w1000 img {
+  width: 400px;
+  height: 360px;
+  object-fit: cover;
+}
+
+.mein-w1000 .txt {
+  margin: 0 60px;
+  width: 60%;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+/* footer */
+footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+footer p {
+  font-weight: bold;
+}
+
+footer small {
+  font-size: 0.65rem;
+}
+
+/* sp screen */
+@media (max-width: 767px) {
+
+  body {
+    font-size: 1.3rem;
+    /* background-color: pink; */
+  }
+
+  .wrapper {
+    width: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+  }
+
+  /* header */
+  header {
+    width: 100%;
+  }
+
+  header img {
+    height: 320px;
+    width: 100%;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  .hero {
+    width: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+    margin-top: 24px;
+    margin-bottom: 72px;
+  }
+
+  .hero li {
+    margin-left: 16px;
+    font-size: .8rem;
+  }
+
+  /* mein */
+  .mein {
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .mein .pic {
+    width: 100%;
+  }
+
+  .mein-w1000 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .mein-w1000 {
+    flex-direction: column;
+  }
+
+  .mein-w1000 div {
+    margin: 0;
+    width: 100%;
+  }
+
+  .mein-w1000 img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+  }
+
+  .mein-w1000 .txt {
+    margin: 0;
+    font-size: 1.3rem;
+    margin: 20px auto 80px;
+    width: 100%;
+  }
+
+  .mein-w1000 .txt h2 {
+    font-size: 1.2rem;
+  }
+
+  .mein-w1000 .txt h3 {
+    font-size: .88rem;
+    padding-bottom: 32px;
+  }
+
+  .mein-w1000 .txt p {
+    font-size: .8rem;
+    line-height: 1.7;
+  }
+
+  /* footer */
+
+  footer .container {
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  footer .container p {
+    font-size: .88rem;
+  }
+
+  footer .container small {
+    font-size: 0.6rem;
+  }
+
+}
